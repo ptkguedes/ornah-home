@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", "Iowan Old Style", Palatino, serif;
+  --color-sage: #5c6b56;
+  --color-sage-dark: #465342;
+  --color-sand: #c4b5a2;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  background: #c4b5a2;
+  color: #1e293b;
+}

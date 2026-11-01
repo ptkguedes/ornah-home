@@ -1,0 +1,133 @@
+{
+  "marca": "Ornah Home",
+  "atalho": "Ir para o conteúdo",
+  "navegacao": [
+    { "id": "inicio", "rotulo": "Início" },
+    { "id": "sobre", "rotulo": "Sobre" },
+    { "id": "servicos", "rotulo": "Serviços" },
+    { "id": "produtos", "rotulo": "Produtos" },
+    { "id": "contato", "rotulo": "Contato" }
+  ],
+  "hero": {
+    "selo": "Personal Organizer",
+    "titulo": "A casa organizada em volta da sua rotina.",
+    "subtitulo": "Closets, cozinhas, home offices e mudanças com método e estética. Cada projeto nasce da vida que você já tem — e segue em orçamento sob medida.",
+    "cta": "Solicite um Orçamento",
+    "cta_aviso": "Abre o WhatsApp em uma nova aba",
+    "mensagem_whatsapp": "Olá! Vim pelo site da Ornah Home e gostaria de solicitar um orçamento sob medida.",
+    "apoio": "A conversa inicial não cria compromisso. O escopo nasce da sua casa.",
+    "url_da_imagem": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1800&q=80",
+    "alt_imagem": "Sala clara com paleta de sálvia, plantas e móveis baixos"
+  },
+  "sobre": {
+    "selo": "O estúdio",
+    "titulo": "Ordem que continua quando a gente vai embora.",
+    "texto": "A Ornah Home organiza casas para serem vividas no dia de semana, não só no dia da foto. Escutamos a rotina, editamos o excesso e desenhamos sistemas simples o bastante para se manterem sozinhos.",
+    "destaques": [
+      {
+        "icone": "compass",
+        "titulo": "Rotina primeiro",
+        "descricao": "Antes de abrir uma gaveta, entendemos horários, hábitos e o que precisa estar à mão de verdade."
+      },
+      {
+        "icone": "ruler",
+        "titulo": "Sistema sob medida",
+        "descricao": "Categorias, alturas e fluxos pensados para a sua casa. Nada de solução pronta de catálogo."
+      },
+      {
+        "icone": "leaf",
+        "titulo": "Leve de manter",
+        "descricao": "O trabalho só termina quando a ordem cabe na semana comum, sem ritual complicado."
+      }
+    ]
+  },
+  "servicos_secao": {
+    "selo": "Serviços",
+    "titulo": "Onde a casa pede ordem.",
+    "introducao": "Atuamos nos ambientes que mais acumulam decisão. O desenho é sempre individual, com orçamento sob medida."
+  },
+  "servicos": [
+    {
+      "titulo": "Closet e guarda-roupa",
+      "descricao": "Editamos o que fica, alinhamos cabides e separamos por frequência de uso. A escolha da manhã fica mais curta, e o closet se lê em um olhar.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1611048268330-53de574cae3b?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "titulo": "Cozinha e despensa",
+      "descricao": "Armários, mantimentos e utensílios ganham zona, altura e lógica de preparo. Cozinhar deixa de ser uma busca e volta a ser o gesto da casa.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1556912173-46c336c7fd55?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "titulo": "Home office",
+      "descricao": "Papéis, cabos e materiais encontram lugar fixo. A mesa volta ao zero no fim do dia, com um fluxo que cabe no trabalho real.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "titulo": "Mudança e desapego",
+      "descricao": "Triagem antes da caixa: o que segue, o que se despede e como embalar por cômodo. A casa nova pode nascer já em ordem.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1730154838368-c37b1fdebcf6?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "titulo": "Manutenção sazonal",
+      "descricao": "Visitas ao longo do ano para revisar o que a rotina deslocou. Closet, cozinha e quarto recuperam a leveza sem recomeçar do zero.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "titulo": "Banheiro",
+      "descricao": "Produtos, toalhas e o que se usa todo dia separados por frequência. Menos frasco aberto e mais superfície livre.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1400&q=80"
+    }
+  ],
+  "produtos_secao": {
+    "selo": "Produtos",
+    "titulo": "Peças que sustentam o sistema.",
+    "introducao": "Cabides, módulos, potes e divisórias entram no projeto quando fazem sentido para a casa. A escolha faz parte do orçamento sob medida."
+  },
+  "produtos": [
+    {
+      "nome": "Estrutura de closet",
+      "descricao": "Barras, prateleiras e gavetas em um desenho só. O closet ganha zonas claras para o que se usa todo dia e para o que espera a estação.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1646592491352-b1c02c48e72a?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "nome": "Cabides de madeira",
+      "descricao": "Um único modelo alinha ombros e devolve profundidade ao arara. A repetição é o que deixa o conjunto calmo.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "nome": "Módulos de enxoval",
+      "descricao": "Nichos para toalhas, lençóis e o que é de temporada. Tudo dobrado, visível e fácil de repor.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "nome": "Divisórias de gaveta",
+      "descricao": "Módulos para talheres, meias, joias e maquiagem. Cada peça no seu recorte, sem gaveta que vira depósito.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1493710494541-43364cb47485?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "nome": "Potes de vidro",
+      "descricao": "Recipientes transparentes, com tampa, para grãos, farinhas e o que se usa toda semana. O estoque se vê sem abrir tudo.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1565620731358-e8c038abc8d1?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "nome": "Superfície de trabalho",
+      "descricao": "Bandejas e poucos objetos à vista para correspondência, cabos e o que ainda está em trânsito. A mesa permanece lugar de trabalho.",
+      "url_da_imagem": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=1400&q=80"
+    }
+  ],
+  "contato": {
+    "telefone": "5511984072651",
+    "email": "contato@ornahhome.com.br",
+    "instagram": "ornah.home"
+  },
+  "rodape": {
+    "texto": "Personal organizer para casas que querem clareza, beleza e uma rotina mais leve.",
+    "rotulo_telefone": "Telefone",
+    "rotulo_email": "E-mail",
+    "rotulo_instagram": "Instagram",
+    "direitos": "© 2026 Ornah Home. Todos os direitos reservados.",
+    "menu_abrir": "Abrir menu",
+    "menu_fechar": "Fechar menu",
+    "nav_rotulo": "Seções da página"
+  }
+}
