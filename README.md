@@ -12,3 +12,5 @@ npm run dev
 ```bash
 npm run build
 ```
+
+Cada envio para a branch `main` publica o site de novo, em cerca de um minuto. Telefone, e-mail, Instagram e as fotos ficam em `src/data/content.json`.
