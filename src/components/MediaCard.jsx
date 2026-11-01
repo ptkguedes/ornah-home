@@ -1,6 +1,6 @@
 export default function MediaCard({ imagem, titulo, descricao }) {
   return (
-    <article className="group overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-sm transition hover:shadow-md">
+    <article className="group overflow-hidden rounded-sm border border-forest/10 bg-white transition hover:border-forest/25">
       <div className="aspect-[4/3] overflow-hidden">
         <img
           src={imagem}
@@ -13,8 +13,8 @@ export default function MediaCard({ imagem, titulo, descricao }) {
         />
       </div>
       <div className="p-6">
-        <h3 className="font-serif text-[1.65rem] leading-tight font-medium text-slate-800">{titulo}</h3>
-        <p className="mt-3 text-sm leading-relaxed text-slate-600">{descricao}</p>
+        <h3 className="font-serif text-[1.65rem] leading-tight font-medium text-forest">{titulo}</h3>
+        <p className="mt-3 text-sm leading-relaxed text-forest/75">{descricao}</p>
       </div>
     </article>
   )

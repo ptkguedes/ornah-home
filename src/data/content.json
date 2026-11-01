@@ -1,5 +1,9 @@
 {
   "marca": "Ornah Home",
+  "logo": {
+    "palavra": "ORNAH",
+    "tagline": "Organize & Harmonize"
+  },
   "atalho": "Ir para o conteúdo",
   "navegacao": [
     { "id": "inicio", "rotulo": "Início" },

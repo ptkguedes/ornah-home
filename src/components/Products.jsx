@@ -6,7 +6,7 @@ export default function Products() {
   const secao = content.produtos_secao
 
   return (
-    <section id="produtos" className="border-t border-stone-200 bg-white px-5 py-20 md:py-28">
+    <section id="produtos" className="border-t border-forest/10 bg-white px-5 py-20 md:py-28">
       <div className="mx-auto max-w-6xl">
         <SectionHeader selo={secao.selo} titulo={secao.titulo} introducao={secao.introducao} />
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">

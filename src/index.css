@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Cormorant Garamond", "Iowan Old Style", Palatino, serif;
-  --color-sage: #5c6b56;
-  --color-sage-dark: #465342;
-  --color-sand: #c4b5a2;
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Bodoni Moda", Didot, "Bodoni MT", serif;
+  --color-forest: #2c4027;
+  --color-forest-dark: #1e2d1b;
+  --color-gold: #bf9004;
+  --color-paper: #f2f2f2;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 6.5rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -24,6 +25,6 @@ body {
 }
 
 ::selection {
-  background: #c4b5a2;
-  color: #1e293b;
+  background: #bf9004;
+  color: #2c4027;
 }

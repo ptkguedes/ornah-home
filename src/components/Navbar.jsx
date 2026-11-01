@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import content from '../data/content.json'
 import CtaOrcamento from './CtaOrcamento'
+import Logo from './Logo'
 
 export default function Navbar() {
   const [aberto, setAberto] = useState(false)
@@ -22,27 +23,28 @@ export default function Navbar() {
   }
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-stone-200/80 bg-stone-50/90 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-forest/10 bg-paper/95 backdrop-blur-md">
       <a
         href="#conteudo"
-        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-800 focus:shadow focus:outline-none focus:ring-2 focus:ring-sage"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-sm focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-forest focus:outline-none focus:ring-2 focus:ring-gold"
       >
         {content.atalho}
       </a>
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
         <a
           href="#inicio"
-          className="font-serif text-[1.65rem] leading-none tracking-tight text-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage focus-visible:ring-offset-2"
+          aria-label={content.marca}
+          className="rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-paper"
           onClick={fechar}
         >
-          {content.marca}
+          <Logo />
         </a>
         <nav aria-label={content.rodape.nav_rotulo} className="hidden items-center gap-8 md:flex">
           {content.navegacao.map((item) => (
             <a
               key={item.id}
               href={`#${item.id}`}
-              className="rounded-sm text-sm text-slate-600 transition hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage focus-visible:ring-offset-2"
+              className="rounded-sm text-sm text-forest/75 transition hover:text-forest focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-paper"
             >
               {item.rotulo}
             </a>
@@ -53,7 +55,7 @@ export default function Navbar() {
         </div>
         <button
           type="button"
-          className="inline-flex h-11 w-11 items-center justify-center rounded-full text-slate-800 transition hover:bg-stone-200/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage md:hidden"
+          className="inline-flex h-11 w-11 items-center justify-center rounded-sm text-forest transition hover:bg-forest/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold md:hidden"
           aria-expanded={aberto}
           aria-controls="menu-mobile"
           onClick={() => setAberto((estaAberto) => !estaAberto)}
@@ -63,13 +65,13 @@ export default function Navbar() {
         </button>
       </div>
       {aberto ? (
-        <nav id="menu-mobile" aria-label={content.rodape.nav_rotulo} className="border-t border-stone-200 px-5 py-4 md:hidden">
+        <nav id="menu-mobile" aria-label={content.rodape.nav_rotulo} className="border-t border-forest/10 px-5 py-4 md:hidden">
           <ul className="flex flex-col">
             {content.navegacao.map((item) => (
               <li key={item.id}>
                 <a
                   href={`#${item.id}`}
-                  className="block rounded-lg px-2 py-3 text-base text-slate-700 transition hover:bg-stone-200/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage"
+                  className="block rounded-sm px-2 py-3 text-base text-forest/80 transition hover:bg-forest/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
                   onClick={fechar}
                 >
                   {item.rotulo}
