@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Bodoni Moda", Didot, "Bodoni MT", serif;
+  --color-forest: #2c4027;
+  --color-forest-dark: #1e2d1b;
+  --color-gold: #bf9004;
+  --color-paper: #f2f2f2;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  background: #bf9004;
+  color: #2c4027;
+}
