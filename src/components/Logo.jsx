@@ -16,15 +16,15 @@ export default function Logo({ claro = false }) {
         <span className="relative inline-block">
           {letra}
           <svg
-            viewBox="0 0 24 46"
+            viewBox="0 0 100 100"
             aria-hidden="true"
-            className="pointer-events-none absolute -top-[0.02em] left-[34%] h-[1.18em] w-[0.9em]"
+            className="pointer-events-none absolute top-[-2.4%] left-[-19.5%] h-[74%] w-[122%] overflow-visible"
           >
             <path
-              d="M6 3C15 8 18.5 18 12.5 34c-1.1 3-4 3.6-5 1.2"
+              d="M1.5 0.5C14 22 40 38 66 52C86 63 101 74 99 85C97 95 84 103 72 97"
               fill="none"
-              stroke="#bf9004"
-              strokeWidth="1.7"
+              stroke="#BF9004"
+              strokeWidth="4"
               strokeLinecap="round"
             />
           </svg>
