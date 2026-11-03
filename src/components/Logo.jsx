@@ -11,7 +11,7 @@ export default function Logo({ claro = false }) {
 
   return (
     <span className="inline-flex flex-col items-center">
-      <span className={`font-serif text-[1.65rem] leading-none font-semibold tracking-[0.08em] sm:text-[1.85rem] ${nome}`}>
+      <span className={`whitespace-nowrap font-serif text-[1.65rem] leading-none font-semibold tracking-[0.08em] sm:text-[1.85rem] ${nome}`}>
         {antes}
         <span className="relative inline-block">
           {letra}
