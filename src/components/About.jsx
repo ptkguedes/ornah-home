@@ -20,6 +20,28 @@ export default function About() {
           </h2>
           <p className="mt-5 text-base leading-relaxed text-forest/75 sm:text-lg">{sobre.texto}</p>
         </div>
+        {sobre.fundadora ? (
+          <div className="mt-14 grid items-center gap-10 md:grid-cols-2 md:gap-16">
+            <img
+              src={sobre.fundadora.url_da_imagem}
+              alt={sobre.fundadora.alt_imagem}
+              width={900}
+              height={1125}
+              loading="lazy"
+              decoding="async"
+              className="aspect-[4/5] w-full rounded-sm object-cover object-top ring-1 ring-forest/10"
+            />
+            <div>
+              <p className="text-xs font-medium tracking-[0.22em] text-forest/70 uppercase">
+                {sobre.fundadora.selo}
+              </p>
+              <h3 className="mt-3 font-serif text-4xl leading-tight font-medium text-forest sm:text-5xl">
+                {sobre.fundadora.nome}
+              </h3>
+              <p className="mt-5 text-base leading-relaxed text-forest/75 sm:text-lg">{sobre.fundadora.texto}</p>
+            </div>
+          </div>
+        ) : null}
         <ul className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {sobre.destaques.map((item) => {
             const Icone = icones[item.icone] ?? Leaf
