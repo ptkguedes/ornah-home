@@ -20,8 +20,8 @@
     "cta_aviso": "Abre o WhatsApp em uma nova aba",
     "mensagem_whatsapp": "Olá! Vim pelo site da Ornah Home e gostaria de solicitar um orçamento sob medida.",
     "apoio": "A conversa inicial não cria compromisso. O escopo nasce da sua casa.",
-    "url_da_imagem": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1800&q=80",
-    "alt_imagem": "Sala clara com paleta de sálvia, plantas e móveis baixos"
+    "url_da_imagem": "/fotos/casa-exterior.jpg",
+    "alt_imagem": "Casa de dois pavimentos ao entardecer, com terraço, jardim e interiores acesos"
   },
   "sobre": {
     "selo": "O estúdio",
@@ -80,13 +80,13 @@
     },
     {
       "titulo": "Organização residencial",
-      "descricao": "Visitas ao longo do ano para revisar o que a rotina deslocou. Closet, cozinha e quarto recuperam a leveza sem recomeçar do zero.",
-      "url_da_imagem": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1400&q=80"
+      "descricao": "O quarto volta a um ponto de partida: cama alinhada, enxoval no lugar e criados com pouco à vista. Dormir e acordar deixam de ser uma arrumação e passam a ser o gesto da noite.",
+      "url_da_imagem": "/fotos/quarto.jpg"
     },
     {
       "titulo": "Gestão residencial e acompanhamento",
-      "descricao": "Governança e apresentação de ambientes, compras e estoques, curadoria de fornecedores, treinamento de funcionários, manutenção preventiva e conservação.",
-      "url_da_imagem": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1400&q=80"
+      "descricao": "Estar, cozinha e circulação permanecem um conjunto só. Compras, estoque, fornecedores e a manutenção seguem um plano, para a casa continuar apresentável no dia comum.",
+      "url_da_imagem": "/fotos/casa-integrada.jpg"
     }
   ],
   "produtos_secao": {
