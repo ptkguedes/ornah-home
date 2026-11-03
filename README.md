@@ -13,4 +13,4 @@ npm run dev
 npm run build
 ```
 
-Cada envio para a branch `main` publica o site de novo, em cerca de um minuto. Telefone, e-mail, Instagram e as fotos ficam em `src/data/content.json`.
+A Discloud sobe o site com `discloud.config`. Telefone, e-mail, Instagram e as fotos ficam em `src/data/content.json`.
