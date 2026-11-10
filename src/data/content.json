@@ -92,7 +92,7 @@
   "produtos_secao": {
     "selo": "Produtos",
     "titulo": "Peças que sustentam o sistema.",
-    "introducao": "Cabides, módulos, potes e divisórias entram no projeto quando fazem sentido para a casa. A escolha faz parte do orçamento sob medida."
+    "introducao": "Closet, enxoval e organizadores entram no projeto quando fazem sentido para a casa. A escolha faz parte do orçamento sob medida."
   },
   "produtos": [
     {
@@ -101,24 +101,14 @@
       "url_da_imagem": "https://images.unsplash.com/photo-1646592491352-b1c02c48e72a?auto=format&fit=crop&w=1400&q=80"
     },
     {
-      "nome": "Cabides de madeira",
-      "descricao": "Um único modelo alinha ombros e devolve profundidade ao arara. A repetição é o que deixa o conjunto calmo.",
-      "url_da_imagem": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1400&q=80"
-    },
-    {
       "nome": "Módulos de enxoval",
       "descricao": "Nichos para toalhas, lençóis e o que é de temporada. Tudo dobrado, visível e fácil de repor.",
       "url_da_imagem": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1400&q=80"
     },
     {
-      "nome": "Divisórias de gaveta",
-      "descricao": "Módulos para talheres, meias, joias e maquiagem. Cada peça no seu recorte, sem gaveta que vira depósito.",
-      "url_da_imagem": "https://images.unsplash.com/photo-1493710494541-43364cb47485?auto=format&fit=crop&w=1400&q=80"
-    },
-    {
       "nome": "Organizadores",
-      "descricao": "Recipientes transparentes, com tampa, para grãos, farinhas e o que se usa toda semana. O estoque se vê sem abrir tudo.",
-      "url_da_imagem": "https://images.unsplash.com/photo-1565620731358-e8c038abc8d1?auto=format&fit=crop&w=1400&q=80"
+      "descricao": "Óculos, pulseira e anel ganham um nicho forrado. A gaveta se lê de cima, e o que se usa todo dia volta ao mesmo lugar.",
+      "url_da_imagem": "/fotos/organizadores.jpg"
     },
     {
       "nome": "Superfície de trabalho",
