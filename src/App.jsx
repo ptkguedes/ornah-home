@@ -2,6 +2,7 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Partners from './components/Partners'
 import Products from './components/Products'
 import Services from './components/Services'
 
@@ -14,6 +15,7 @@ export default function App() {
         <About />
         <Services />
         <Products />
+        <Partners />
       </main>
       <Footer />
     </>
