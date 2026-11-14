@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const dist = fileURLToPath(new URL("./dist", import.meta.url));
 const indice = join(dist, "index.html");
-const porta = 8080;
+const porta = Number(process.env.PORT) || 8080;
 const host = "0.0.0.0";
 
 const tipos: Record<string, string> = {
