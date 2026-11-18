@@ -103,7 +103,8 @@
     {
       "nome": "Curadoria de enxoval",
       "descricao": "Nichos para toalhas, lençóis e o que é de temporada. Tudo dobrado, visível e fácil de repor.",
-      "url_da_imagem": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1400&q=80"
+      "url_da_imagem": "/fotos/curadoria-enxoval.jpg",
+      "alt_imagem": "Enxoval de cama e banho dobrado e etiquetado em prateleiras"
     },
     {
       "nome": "Organizadores",
