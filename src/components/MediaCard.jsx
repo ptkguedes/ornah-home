@@ -1,10 +1,10 @@
-export default function MediaCard({ imagem, titulo, descricao }) {
+export default function MediaCard({ imagem, titulo, descricao, alt }) {
   return (
     <article className="group overflow-hidden rounded-sm border border-forest/10 bg-white transition hover:border-forest/25">
       <div className="aspect-[4/3] overflow-hidden">
         <img
           src={imagem}
-          alt={titulo}
+          alt={alt ?? titulo}
           width={1200}
           height={900}
           loading="lazy"
