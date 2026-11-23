@@ -114,7 +114,8 @@
     {
       "nome": "Marcenaria inteligente",
       "descricao": "Planejando móveis e ambientes que combinam aproveitamento máximo do espaço, multifuncionalidade e eficiência ao atender as necessidades do acervo do cliente.",
-      "url_da_imagem": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=1400&q=80"
+      "url_da_imagem": "/fotos/marcenaria-inteligente.jpg",
+      "alt_imagem": "Gavetas planejadas com organizadores internos em cozinha azul-marinho"
     }
   ],
   "parcerias_secao": {
