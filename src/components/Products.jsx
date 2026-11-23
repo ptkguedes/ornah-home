@@ -12,7 +12,12 @@ export default function Products() {
         <div className="mt-12 grid grid-cols-2 gap-4 lg:grid-cols-4 lg:gap-6">
           {content.produtos.map((produto) => (
             <div key={produto.nome} className="min-w-0">
-              <MediaCard imagem={produto.url_da_imagem} titulo={produto.nome} descricao={produto.descricao} />
+              <MediaCard
+                imagem={produto.url_da_imagem}
+                titulo={produto.nome}
+                descricao={produto.descricao}
+                alt={produto.alt_imagem}
+              />
             </div>
           ))}
         </div>
